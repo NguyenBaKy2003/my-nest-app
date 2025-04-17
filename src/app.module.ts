@@ -9,6 +9,7 @@ import { UserModule } from './module/user.module';
 import { DepartmentModule } from './module/department.module';
 import { PositionModule } from './module/position.module';
 import { EmployeeModule } from './module/employee.module';
+
 @Module({
   imports: [
     ConfigModule.forRoot({ isGlobal: true }),

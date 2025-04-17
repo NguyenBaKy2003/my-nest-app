@@ -20,6 +20,7 @@ export class UserController {
     return this.userService.createUser(userData);
   }
 
+  // Đặt quyền admin chỉ cho route này
   @Get()
   async findAllUsers(): Promise<User[]> {
     return this.userService.findAllUsers();
